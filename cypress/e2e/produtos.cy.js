@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-const { faker } = require('@faker-js/faker');
+
 
 describe('Funcionalidade página de produtos', () => {
 
