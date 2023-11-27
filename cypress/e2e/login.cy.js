@@ -41,19 +41,19 @@ context('Funcionalidade Login', () => {
   it('Deve fazer login com sucesso - Usando arquivos de dados', () => {
     cy.get('#username').type(perfil.usuario)
     cy.get('#password').type(perfil.senha)
-    cy.get('.woocommerce-form > .button').click() 
+    cy.get('.woocommerce-form > .button').click()
 
-    cy.get('.woocommerce-MyAccount-navigation-link--dashboard > a').should('contain' , 'Painel')
+    cy.get('.woocommerce-MyAccount-navigation-link--dashboard > a').should('contain', 'Painel')
   });
 
-    it.only('Deve fazer login com sucesso - Usando fixtures', () => {
-      cy.fixture('perfil').then(dados => {
-        cy.get('#username').type(dados.usuario)
-        cy.get('#password').type(dados.senha, {log: false})
-        cy.get('.woocommerce-form > .button').click() 
-    
-        cy.get('.woocommerce-MyAccount-navigation-link--dashboard > a').should('contain' , 'Painel')
-      })
-    });
+  it('Deve fazer login com sucesso - Usando fixtures', () => {
+    cy.fixture('perfil').then(dados => {
+      cy.get('#username').type(dados.usuario)
+      cy.get('#password').type(dados.senha, { log: false })
+      cy.get('.woocommerce-form > .button').click()
+
+      cy.get('.woocommerce-MyAccount-navigation-link--dashboard > a').should('contain', 'Painel')
+    })
+  });
 
 });
