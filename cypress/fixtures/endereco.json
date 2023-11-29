@@ -1,0 +1,41 @@
+[
+    {
+        "nome": "Carlos",
+        "sobrenome": "jhonsons",
+        "empresa": "EBACSHOP",
+        "endereco": "Av. dos coqueiros",
+        "numero": "546",
+        "pais": "brasil",
+        "cidade": "campinas",
+        "estado": "são paulo",
+        "cep": "01000100",
+        "telefone": "40028922",
+        "email": "email@email.com"
+    },
+    {
+        "nome": "Julio",
+        "sobrenome": "Morais",
+        "empresa": "EBAC",
+        "endereco": "Av. 9 de setembro",
+        "numero": "589",
+        "pais": "brasil",
+        "cidade": "campinas",
+        "estado": "são paulo",
+        "cep": "01000100",
+        "telefone": "40028922",
+        "email": "email@email.com"
+    },
+    {
+        "nome":"Zacarias",
+        "sobrenome":"James",
+        "empresa":"EBACSHOP",
+        "endereco":"Av. Paulista",
+        "numero":"478",
+        "pais":"brasil",
+        "cidade":"São paulo",
+        "estado":"são paulo",
+        "cep":"01000100",
+        "telefone":"40028922",
+        "email":"email@email.com"
+    }
+]
